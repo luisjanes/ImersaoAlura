@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tabelapontuacao.css">
+    <title>Tabela Pontuação</title>
+</head>
+<body>
+    <h1>Tabela de classificação</h1>
+    <p class="page-subtitle">Digite o nome do jogador:
+        <input type="text" id="inJogador" placeholder="Nome do jogador">
+        <button onClick="incluirJogador()">Incluir</button></td>
+    </page-subtitle></p>
+    <table style="width:100%">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores"></tbody>
+    </table>
+    <script src="tabelapontuacao.js"></script>
+</body>
+</html>
